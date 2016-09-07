@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75336471D7E714A004E0C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336461D7E714A004E0C90 /* main.m */; };
+		E753364A1D7E714A004E0C90 /* PDLiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336491D7E714A004E0C90 /* PDLiveAppDelegate.m */; };
+		E75336501D7E714A004E0C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E753364E1D7E714A004E0C90 /* Main.storyboard */; };
+		E75336521D7E714A004E0C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75336511D7E714A004E0C90 /* Assets.xcassets */; };
+		E75336551D7E714A004E0C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75336531D7E714A004E0C90 /* LaunchScreen.storyboard */; };
+		E753365E1D7E7170004E0C90 /* PDLiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E753365D1D7E7170004E0C90 /* PDLiveRoomViewController.m */; };
+		E75336611D7E7300004E0C90 /* PDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336601D7E7300004E0C90 /* PDBaseViewController.m */; };
+		E75336681D7E73A5004E0C90 /* PDBlurImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336671D7E73A5004E0C90 /* PDBlurImageEffects.m */; };
+		E753366B1D7E77EC004E0C90 /* PDTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E753366A1D7E77EC004E0C90 /* PDTableViewDataSource.m */; };
+		E753366E1D7E7E15004E0C90 /* PDChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E753366D1D7E7E15004E0C90 /* PDChatModel.m */; };
+		E75336731D7E8002004E0C90 /* UIColorExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336721D7E8002004E0C90 /* UIColorExt.m */; };
+		E75336761D7E975A004E0C90 /* NSAttributeString+Extent.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336751D7E975A004E0C90 /* NSAttributeString+Extent.m */; };
+		E75336791D7E9CA9004E0C90 /* PDChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E75336781D7E9CA9004E0C90 /* PDChatTableViewCell.m */; };
+		E753367C1D7EB5E3004E0C90 /* PDEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E753367B1D7EB5E3004E0C90 /* PDEmitterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E75336421D7E714A004E0C90 /* PDLiveRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDLiveRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75336461D7E714A004E0C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75336481D7E714A004E0C90 /* PDLiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDLiveAppDelegate.h; sourceTree = "<group>"; };
+		E75336491D7E714A004E0C90 /* PDLiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDLiveAppDelegate.m; sourceTree = "<group>"; };
+		E753364F1D7E714A004E0C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75336511D7E714A004E0C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75336541D7E714A004E0C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E75336561D7E714A004E0C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E753365C1D7E7170004E0C90 /* PDLiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDLiveRoomViewController.h; sourceTree = "<group>"; };
+		E753365D1D7E7170004E0C90 /* PDLiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDLiveRoomViewController.m; sourceTree = "<group>"; };
+		E753365F1D7E7300004E0C90 /* PDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDBaseViewController.h; sourceTree = "<group>"; };
+		E75336601D7E7300004E0C90 /* PDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDBaseViewController.m; sourceTree = "<group>"; };
+		E75336661D7E73A5004E0C90 /* PDBlurImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDBlurImageEffects.h; sourceTree = "<group>"; };
+		E75336671D7E73A5004E0C90 /* PDBlurImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDBlurImageEffects.m; sourceTree = "<group>"; };
+		E75336691D7E77EC004E0C90 /* PDTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTableViewDataSource.h; sourceTree = "<group>"; };
+		E753366A1D7E77EC004E0C90 /* PDTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTableViewDataSource.m; sourceTree = "<group>"; };
+		E753366C1D7E7E15004E0C90 /* PDChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDChatModel.h; sourceTree = "<group>"; };
+		E753366D1D7E7E15004E0C90 /* PDChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDChatModel.m; sourceTree = "<group>"; };
+		E753366F1D7E7E7F004E0C90 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E75336701D7E7F75004E0C90 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E75336711D7E8002004E0C90 /* UIColorExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorExt.h; sourceTree = "<group>"; };
+		E75336721D7E8002004E0C90 /* UIColorExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorExt.m; sourceTree = "<group>"; };
+		E75336741D7E975A004E0C90 /* NSAttributeString+Extent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeString+Extent.h"; sourceTree = "<group>"; };
+		E75336751D7E975A004E0C90 /* NSAttributeString+Extent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeString+Extent.m"; sourceTree = "<group>"; };
+		E75336771D7E9CA9004E0C90 /* PDChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDChatTableViewCell.h; sourceTree = "<group>"; };
+		E75336781D7E9CA9004E0C90 /* PDChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDChatTableViewCell.m; sourceTree = "<group>"; };
+		E753367A1D7EB5E3004E0C90 /* PDEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDEmitterView.h; sourceTree = "<group>"; };
+		E753367B1D7EB5E3004E0C90 /* PDEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDEmitterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E753363F1D7E714A004E0C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75336391D7E714A004E0C90 = {
+			isa = PBXGroup;
+			children = (
+				E75336441D7E714A004E0C90 /* PDLiveRoom */,
+				E75336431D7E714A004E0C90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75336431D7E714A004E0C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75336421D7E714A004E0C90 /* PDLiveRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75336441D7E714A004E0C90 /* PDLiveRoom */ = {
+			isa = PBXGroup;
+			children = (
+				E75336651D7E7390004E0C90 /* Tool */,
+				E75336641D7E738A004E0C90 /* Model */,
+				E75336631D7E7382004E0C90 /* Controller */,
+				E75336621D7E737A004E0C90 /* view */,
+				E75336451D7E714A004E0C90 /* Supporting Files */,
+			);
+			path = PDLiveRoom;
+			sourceTree = "<group>";
+		};
+		E75336451D7E714A004E0C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E753366F1D7E7E7F004E0C90 /* PrefixHeader.pch */,
+				E75336481D7E714A004E0C90 /* PDLiveAppDelegate.h */,
+				E75336491D7E714A004E0C90 /* PDLiveAppDelegate.m */,
+				E753364E1D7E714A004E0C90 /* Main.storyboard */,
+				E75336511D7E714A004E0C90 /* Assets.xcassets */,
+				E75336531D7E714A004E0C90 /* LaunchScreen.storyboard */,
+				E75336561D7E714A004E0C90 /* Info.plist */,
+				E75336461D7E714A004E0C90 /* main.m */,
+				E75336701D7E7F75004E0C90 /* Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75336621D7E737A004E0C90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E75336771D7E9CA9004E0C90 /* PDChatTableViewCell.h */,
+				E75336781D7E9CA9004E0C90 /* PDChatTableViewCell.m */,
+				E753367A1D7EB5E3004E0C90 /* PDEmitterView.h */,
+				E753367B1D7EB5E3004E0C90 /* PDEmitterView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		E75336631D7E7382004E0C90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E753365C1D7E7170004E0C90 /* PDLiveRoomViewController.h */,
+				E753365D1D7E7170004E0C90 /* PDLiveRoomViewController.m */,
+				E753365F1D7E7300004E0C90 /* PDBaseViewController.h */,
+				E75336601D7E7300004E0C90 /* PDBaseViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E75336641D7E738A004E0C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E753366C1D7E7E15004E0C90 /* PDChatModel.h */,
+				E753366D1D7E7E15004E0C90 /* PDChatModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E75336651D7E7390004E0C90 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E75336711D7E8002004E0C90 /* UIColorExt.h */,
+				E75336721D7E8002004E0C90 /* UIColorExt.m */,
+				E75336691D7E77EC004E0C90 /* PDTableViewDataSource.h */,
+				E753366A1D7E77EC004E0C90 /* PDTableViewDataSource.m */,
+				E75336661D7E73A5004E0C90 /* PDBlurImageEffects.h */,
+				E75336671D7E73A5004E0C90 /* PDBlurImageEffects.m */,
+				E75336741D7E975A004E0C90 /* NSAttributeString+Extent.h */,
+				E75336751D7E975A004E0C90 /* NSAttributeString+Extent.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75336411D7E714A004E0C90 /* PDLiveRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75336591D7E714A004E0C90 /* Build configuration list for PBXNativeTarget "PDLiveRoom" */;
+			buildPhases = (
+				E753363E1D7E714A004E0C90 /* Sources */,
+				E753363F1D7E714A004E0C90 /* Frameworks */,
+				E75336401D7E714A004E0C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDLiveRoom;
+			productName = PDLiveRoom;
+			productReference = E75336421D7E714A004E0C90 /* PDLiveRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E753363A1D7E714A004E0C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "彭懂";
+				TargetAttributes = {
+					E75336411D7E714A004E0C90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E753363D1D7E714A004E0C90 /* Build configuration list for PBXProject "PDLiveRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75336391D7E714A004E0C90;
+			productRefGroup = E75336431D7E714A004E0C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75336411D7E714A004E0C90 /* PDLiveRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75336401D7E714A004E0C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75336551D7E714A004E0C90 /* LaunchScreen.storyboard in Resources */,
+				E75336521D7E714A004E0C90 /* Assets.xcassets in Resources */,
+				E75336501D7E714A004E0C90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E753363E1D7E714A004E0C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75336681D7E73A5004E0C90 /* PDBlurImageEffects.m in Sources */,
+				E75336791D7E9CA9004E0C90 /* PDChatTableViewCell.m in Sources */,
+				E753364A1D7E714A004E0C90 /* PDLiveAppDelegate.m in Sources */,
+				E75336761D7E975A004E0C90 /* NSAttributeString+Extent.m in Sources */,
+				E75336471D7E714A004E0C90 /* main.m in Sources */,
+				E753366B1D7E77EC004E0C90 /* PDTableViewDataSource.m in Sources */,
+				E753366E1D7E7E15004E0C90 /* PDChatModel.m in Sources */,
+				E75336731D7E8002004E0C90 /* UIColorExt.m in Sources */,
+				E753367C1D7EB5E3004E0C90 /* PDEmitterView.m in Sources */,
+				E753365E1D7E7170004E0C90 /* PDLiveRoomViewController.m in Sources */,
+				E75336611D7E7300004E0C90 /* PDBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E753364E1D7E714A004E0C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E753364F1D7E714A004E0C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75336531D7E714A004E0C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75336541D7E714A004E0C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75336571D7E714A004E0C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E75336581D7E714A004E0C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E753365A1D7E714A004E0C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDLiveRoom/PrefixHeader.pch";
+				INFOPLIST_FILE = PDLiveRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dongba.PDLiveRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E753365B1D7E714A004E0C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDLiveRoom/PrefixHeader.pch";
+				INFOPLIST_FILE = PDLiveRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dongba.PDLiveRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E753363D1D7E714A004E0C90 /* Build configuration list for PBXProject "PDLiveRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75336571D7E714A004E0C90 /* Debug */,
+				E75336581D7E714A004E0C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75336591D7E714A004E0C90 /* Build configuration list for PBXNativeTarget "PDLiveRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E753365A1D7E714A004E0C90 /* Debug */,
+				E753365B1D7E714A004E0C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E753363A1D7E714A004E0C90 /* Project object */;
+}
